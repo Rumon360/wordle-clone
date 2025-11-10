@@ -7,3 +7,31 @@
     @apply bg-[#121213];
   }
 }
+
+/*
+  Theme: myTheme1
+*/
+.simple-keyboard.myTheme1 {
+  background-color: #262626;
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.simple-keyboard.myTheme1 .hg-button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121213;
+  color: white;
+}
+
+.simple-keyboard.myTheme1 .hg-button:active {
+  background: #121213;
+  color: white;
+}
+
+#root .simple-keyboard.myTheme1 + .simple-keyboard-preview {
+  background: #121213;
+}
